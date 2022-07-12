@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A380C422826520D006CC51E /* FeedbackHapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C412826520D006CC51E /* FeedbackHapticsManager.swift */; };
+		3A380C45282652E9006CC51E /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C44282652E9006CC51E /* Stick.swift */; };
+		3A380C46282652E9006CC51E /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C44282652E9006CC51E /* Stick.swift */; };
+		3A380C47282652E9006CC51E /* Stick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C44282652E9006CC51E /* Stick.swift */; };
+		3A380C4D282653A3006CC51E /* ButtonGallary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C4C282653A3006CC51E /* ButtonGallary.swift */; };
+		3A380C4E282653A3006CC51E /* ButtonGallary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C4C282653A3006CC51E /* ButtonGallary.swift */; };
+		3A380C4F282653A3006CC51E /* ButtonGallary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C4C282653A3006CC51E /* ButtonGallary.swift */; };
+		3A380C522826602A006CC51E /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C512826602A006CC51E /* CircleButton.swift */; };
+		3A380C532826602A006CC51E /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C512826602A006CC51E /* CircleButton.swift */; };
+		3A380C542826602A006CC51E /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C512826602A006CC51E /* CircleButton.swift */; };
+		3A380C56282667D6006CC51E /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C55282667D6006CC51E /* SquareButton.swift */; };
+		3A380C57282667D6006CC51E /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C55282667D6006CC51E /* SquareButton.swift */; };
+		3A380C58282667D6006CC51E /* SquareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C55282667D6006CC51E /* SquareButton.swift */; };
+		3A380C5E282673EC006CC51E /* ButtonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C5D282673EC006CC51E /* ButtonConstants.swift */; };
+		3A380C5F282673EC006CC51E /* ButtonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C5D282673EC006CC51E /* ButtonConstants.swift */; };
+		3A380C60282673EC006CC51E /* ButtonConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C5D282673EC006CC51E /* ButtonConstants.swift */; };
+		3A380C622826BD4F006CC51E /* BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C612826BD4F006CC51E /* BarButton.swift */; };
+		3A380C632826BD4F006CC51E /* BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C612826BD4F006CC51E /* BarButton.swift */; };
+		3A380C642826BD4F006CC51E /* BarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C612826BD4F006CC51E /* BarButton.swift */; };
+		3A380C66282794B2006CC51E /* FuncButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C65282794B2006CC51E /* FuncButtonGroup.swift */; };
+		3A380C67282794B2006CC51E /* FuncButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C65282794B2006CC51E /* FuncButtonGroup.swift */; };
+		3A380C68282794B2006CC51E /* FuncButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C65282794B2006CC51E /* FuncButtonGroup.swift */; };
+		3A380C6A2827D4DB006CC51E /* CrossButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C692827D4DB006CC51E /* CrossButtonGroup.swift */; };
+		3A380C6B2827D4DB006CC51E /* CrossButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C692827D4DB006CC51E /* CrossButtonGroup.swift */; };
+		3A380C6C2827D4DB006CC51E /* CrossButtonGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C692827D4DB006CC51E /* CrossButtonGroup.swift */; };
+		3A380C722827D5DC006CC51E /* CircleBtnPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C712827D5DC006CC51E /* CircleBtnPosition.swift */; };
+		3A380C732827D5DC006CC51E /* CircleBtnPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C712827D5DC006CC51E /* CircleBtnPosition.swift */; };
+		3A380C742827D5DC006CC51E /* CircleBtnPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C712827D5DC006CC51E /* CircleBtnPosition.swift */; };
+		3A380C762827D6DA006CC51E /* SquareBtnPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C752827D6DA006CC51E /* SquareBtnPosition.swift */; };
+		3A380C772827D6DA006CC51E /* SquareBtnPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C752827D6DA006CC51E /* SquareBtnPosition.swift */; };
+		3A380C782827D6DA006CC51E /* SquareBtnPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A380C752827D6DA006CC51E /* SquareBtnPosition.swift */; };
+		3A942444281FB44400AD814E /* JoyAniosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A942443281FB44400AD814E /* JoyAniosApp.swift */; };
+		3A942446281FB44400AD814E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A942445281FB44400AD814E /* ContentView.swift */; };
+		3A942448281FB44500AD814E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A942447281FB44500AD814E /* Assets.xcassets */; };
+		3A94244B281FB44500AD814E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A94244A281FB44500AD814E /* Preview Assets.xcassets */; };
+		3A942455281FB44500AD814E /* JoyAniosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A942454281FB44500AD814E /* JoyAniosTests.swift */; };
+		3A94245F281FB44500AD814E /* JoyAniosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A94245E281FB44500AD814E /* JoyAniosUITests.swift */; };
+		3A942461281FB44500AD814E /* JoyAniosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A942460281FB44500AD814E /* JoyAniosUITestsLaunchTests.swift */; };
+		6C3BE025043FCD2FD998CA1B /* GamePadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3BE238C4EC4FBACC4751D1 /* GamePadView.swift */; };
+		6C3BE18D8F35CC460147B59C /* GamePadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3BE238C4EC4FBACC4751D1 /* GamePadView.swift */; };
+		6C3BE7F2C2724ECB35E89065 /* GamePadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3BE238C4EC4FBACC4751D1 /* GamePadView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A942451281FB44500AD814E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A942438281FB44400AD814E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A94243F281FB44400AD814E;
+			remoteInfo = JoyAnios;
+		};
+		3A94245B281FB44500AD814E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A942438281FB44400AD814E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A94243F281FB44400AD814E;
+			remoteInfo = JoyAnios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A380C412826520D006CC51E /* FeedbackHapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackHapticsManager.swift; sourceTree = "<group>"; };
+		3A380C44282652E9006CC51E /* Stick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stick.swift; sourceTree = "<group>"; };
+		3A380C4C282653A3006CC51E /* ButtonGallary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonGallary.swift; sourceTree = "<group>"; };
+		3A380C512826602A006CC51E /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		3A380C55282667D6006CC51E /* SquareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareButton.swift; sourceTree = "<group>"; };
+		3A380C5D282673EC006CC51E /* ButtonConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonConstants.swift; sourceTree = "<group>"; };
+		3A380C612826BD4F006CC51E /* BarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButton.swift; sourceTree = "<group>"; };
+		3A380C65282794B2006CC51E /* FuncButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncButtonGroup.swift; sourceTree = "<group>"; };
+		3A380C692827D4DB006CC51E /* CrossButtonGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossButtonGroup.swift; sourceTree = "<group>"; };
+		3A380C712827D5DC006CC51E /* CircleBtnPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBtnPosition.swift; sourceTree = "<group>"; };
+		3A380C752827D6DA006CC51E /* SquareBtnPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareBtnPosition.swift; sourceTree = "<group>"; };
+		3A942440281FB44400AD814E /* JoyAnios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyAnios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A942443281FB44400AD814E /* JoyAniosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyAniosApp.swift; sourceTree = "<group>"; };
+		3A942445281FB44400AD814E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A942447281FB44500AD814E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A94244A281FB44500AD814E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A942450281FB44500AD814E /* JoyAniosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyAniosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A942454281FB44500AD814E /* JoyAniosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyAniosTests.swift; sourceTree = "<group>"; };
+		3A94245A281FB44500AD814E /* JoyAniosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoyAniosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A94245E281FB44500AD814E /* JoyAniosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyAniosUITests.swift; sourceTree = "<group>"; };
+		3A942460281FB44500AD814E /* JoyAniosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyAniosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6C3BE238C4EC4FBACC4751D1 /* GamePadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePadView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A94243D281FB44400AD814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A94244D281FB44500AD814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A942457281FB44500AD814E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A380C40282651E1006CC51E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3A380C412826520D006CC51E /* FeedbackHapticsManager.swift */,
+				3A380C5D282673EC006CC51E /* ButtonConstants.swift */,
+				3A380C712827D5DC006CC51E /* CircleBtnPosition.swift */,
+				3A380C752827D6DA006CC51E /* SquareBtnPosition.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3A380C43282652BC006CC51E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				3A380C44282652E9006CC51E /* Stick.swift */,
+				3A380C512826602A006CC51E /* CircleButton.swift */,
+				3A380C55282667D6006CC51E /* SquareButton.swift */,
+				3A380C612826BD4F006CC51E /* BarButton.swift */,
+				3A380C65282794B2006CC51E /* FuncButtonGroup.swift */,
+				3A380C692827D4DB006CC51E /* CrossButtonGroup.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		3A942437281FB44400AD814E = {
+			isa = PBXGroup;
+			children = (
+				3A942442281FB44400AD814E /* JoyAnios */,
+				3A942453281FB44500AD814E /* JoyAniosTests */,
+				3A94245D281FB44500AD814E /* JoyAniosUITests */,
+				3A942441281FB44400AD814E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A942441281FB44400AD814E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A942440281FB44400AD814E /* JoyAnios.app */,
+				3A942450281FB44500AD814E /* JoyAniosTests.xctest */,
+				3A94245A281FB44500AD814E /* JoyAniosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A942442281FB44400AD814E /* JoyAnios */ = {
+			isa = PBXGroup;
+			children = (
+				3A380C40282651E1006CC51E /* Utils */,
+				3A942443281FB44400AD814E /* JoyAniosApp.swift */,
+				3A942445281FB44400AD814E /* ContentView.swift */,
+				3A942447281FB44500AD814E /* Assets.xcassets */,
+				3A942449281FB44500AD814E /* Preview Content */,
+				6C3BE6C05B9683CBF5C35660 /* Views */,
+			);
+			path = JoyAnios;
+			sourceTree = "<group>";
+		};
+		3A942449281FB44500AD814E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A94244A281FB44500AD814E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A942453281FB44500AD814E /* JoyAniosTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A942454281FB44500AD814E /* JoyAniosTests.swift */,
+			);
+			path = JoyAniosTests;
+			sourceTree = "<group>";
+		};
+		3A94245D281FB44500AD814E /* JoyAniosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A94245E281FB44500AD814E /* JoyAniosUITests.swift */,
+				3A942460281FB44500AD814E /* JoyAniosUITestsLaunchTests.swift */,
+			);
+			path = JoyAniosUITests;
+			sourceTree = "<group>";
+		};
+		6C3BE6C05B9683CBF5C35660 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6C3BE238C4EC4FBACC4751D1 /* GamePadView.swift */,
+				3A380C4C282653A3006CC51E /* ButtonGallary.swift */,
+				3A380C43282652BC006CC51E /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A94243F281FB44400AD814E /* JoyAnios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A942464281FB44500AD814E /* Build configuration list for PBXNativeTarget "JoyAnios" */;
+			buildPhases = (
+				3A94243C281FB44400AD814E /* Sources */,
+				3A94243D281FB44400AD814E /* Frameworks */,
+				3A94243E281FB44400AD814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JoyAnios;
+			productName = JoyAnios;
+			productReference = 3A942440281FB44400AD814E /* JoyAnios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A94244F281FB44500AD814E /* JoyAniosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A942467281FB44500AD814E /* Build configuration list for PBXNativeTarget "JoyAniosTests" */;
+			buildPhases = (
+				3A94244C281FB44500AD814E /* Sources */,
+				3A94244D281FB44500AD814E /* Frameworks */,
+				3A94244E281FB44500AD814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A942452281FB44500AD814E /* PBXTargetDependency */,
+			);
+			name = JoyAniosTests;
+			productName = JoyAniosTests;
+			productReference = 3A942450281FB44500AD814E /* JoyAniosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A942459281FB44500AD814E /* JoyAniosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A94246A281FB44500AD814E /* Build configuration list for PBXNativeTarget "JoyAniosUITests" */;
+			buildPhases = (
+				3A942456281FB44500AD814E /* Sources */,
+				3A942457281FB44500AD814E /* Frameworks */,
+				3A942458281FB44500AD814E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A94245C281FB44500AD814E /* PBXTargetDependency */,
+			);
+			name = JoyAniosUITests;
+			productName = JoyAniosUITests;
+			productReference = 3A94245A281FB44500AD814E /* JoyAniosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A942438281FB44400AD814E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3A94243F281FB44400AD814E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					3A94244F281FB44500AD814E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3A94243F281FB44400AD814E;
+					};
+					3A942459281FB44500AD814E = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 3A94243F281FB44400AD814E;
+					};
+				};
+			};
+			buildConfigurationList = 3A94243B281FB44400AD814E /* Build configuration list for PBXProject "JoyAnios" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A942437281FB44400AD814E;
+			productRefGroup = 3A942441281FB44400AD814E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A94243F281FB44400AD814E /* JoyAnios */,
+				3A94244F281FB44500AD814E /* JoyAniosTests */,
+				3A942459281FB44500AD814E /* JoyAniosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A94243E281FB44400AD814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A94244B281FB44500AD814E /* Preview Assets.xcassets in Resources */,
+				3A942448281FB44500AD814E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A94244E281FB44500AD814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A942458281FB44500AD814E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A94243C281FB44400AD814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A380C522826602A006CC51E /* CircleButton.swift in Sources */,
+				3A942446281FB44400AD814E /* ContentView.swift in Sources */,
+				3A380C56282667D6006CC51E /* SquareButton.swift in Sources */,
+				3A380C66282794B2006CC51E /* FuncButtonGroup.swift in Sources */,
+				3A942444281FB44400AD814E /* JoyAniosApp.swift in Sources */,
+				3A380C4D282653A3006CC51E /* ButtonGallary.swift in Sources */,
+				6C3BE025043FCD2FD998CA1B /* GamePadView.swift in Sources */,
+				3A380C5E282673EC006CC51E /* ButtonConstants.swift in Sources */,
+				3A380C762827D6DA006CC51E /* SquareBtnPosition.swift in Sources */,
+				3A380C722827D5DC006CC51E /* CircleBtnPosition.swift in Sources */,
+				3A380C6A2827D4DB006CC51E /* CrossButtonGroup.swift in Sources */,
+				3A380C422826520D006CC51E /* FeedbackHapticsManager.swift in Sources */,
+				3A380C45282652E9006CC51E /* Stick.swift in Sources */,
+				3A380C622826BD4F006CC51E /* BarButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A94244C281FB44500AD814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A380C532826602A006CC51E /* CircleButton.swift in Sources */,
+				3A380C46282652E9006CC51E /* Stick.swift in Sources */,
+				3A380C5F282673EC006CC51E /* ButtonConstants.swift in Sources */,
+				3A380C632826BD4F006CC51E /* BarButton.swift in Sources */,
+				3A380C6B2827D4DB006CC51E /* CrossButtonGroup.swift in Sources */,
+				3A380C57282667D6006CC51E /* SquareButton.swift in Sources */,
+				3A942455281FB44500AD814E /* JoyAniosTests.swift in Sources */,
+				3A380C4E282653A3006CC51E /* ButtonGallary.swift in Sources */,
+				3A380C772827D6DA006CC51E /* SquareBtnPosition.swift in Sources */,
+				6C3BE18D8F35CC460147B59C /* GamePadView.swift in Sources */,
+				3A380C732827D5DC006CC51E /* CircleBtnPosition.swift in Sources */,
+				3A380C67282794B2006CC51E /* FuncButtonGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A942456281FB44500AD814E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A380C782827D6DA006CC51E /* SquareBtnPosition.swift in Sources */,
+				3A380C642826BD4F006CC51E /* BarButton.swift in Sources */,
+				3A380C47282652E9006CC51E /* Stick.swift in Sources */,
+				3A380C60282673EC006CC51E /* ButtonConstants.swift in Sources */,
+				3A380C6C2827D4DB006CC51E /* CrossButtonGroup.swift in Sources */,
+				3A380C4F282653A3006CC51E /* ButtonGallary.swift in Sources */,
+				3A942461281FB44500AD814E /* JoyAniosUITestsLaunchTests.swift in Sources */,
+				3A380C68282794B2006CC51E /* FuncButtonGroup.swift in Sources */,
+				3A380C542826602A006CC51E /* CircleButton.swift in Sources */,
+				3A94245F281FB44500AD814E /* JoyAniosUITests.swift in Sources */,
+				3A380C742827D5DC006CC51E /* CircleBtnPosition.swift in Sources */,
+				3A380C58282667D6006CC51E /* SquareButton.swift in Sources */,
+				6C3BE7F2C2724ECB35E89065 /* GamePadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A942452281FB44500AD814E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A94243F281FB44400AD814E /* JoyAnios */;
+			targetProxy = 3A942451281FB44500AD814E /* PBXContainerItemProxy */;
+		};
+		3A94245C281FB44500AD814E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A94243F281FB44400AD814E /* JoyAnios */;
+			targetProxy = 3A94245B281FB44500AD814E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A942462281FB44500AD814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A942463281FB44500AD814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A942465281FB44500AD814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoyAnios/Preview Content\"";
+				DEVELOPMENT_TEAM = L9J83RFUYU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.JoyAnios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A942466281FB44500AD814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JoyAnios/Preview Content\"";
+				DEVELOPMENT_TEAM = L9J83RFUYU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.JoyAnios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A942468281FB44500AD814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9J83RFUYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.JoyAniosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoyAnios.app/JoyAnios";
+			};
+			name = Debug;
+		};
+		3A942469281FB44500AD814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9J83RFUYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.JoyAniosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JoyAnios.app/JoyAnios";
+			};
+			name = Release;
+		};
+		3A94246B281FB44500AD814E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9J83RFUYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.JoyAniosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JoyAnios;
+			};
+			name = Debug;
+		};
+		3A94246C281FB44500AD814E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9J83RFUYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.JoyAniosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JoyAnios;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A94243B281FB44400AD814E /* Build configuration list for PBXProject "JoyAnios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A942462281FB44500AD814E /* Debug */,
+				3A942463281FB44500AD814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A942464281FB44500AD814E /* Build configuration list for PBXNativeTarget "JoyAnios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A942465281FB44500AD814E /* Debug */,
+				3A942466281FB44500AD814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A942467281FB44500AD814E /* Build configuration list for PBXNativeTarget "JoyAniosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A942468281FB44500AD814E /* Debug */,
+				3A942469281FB44500AD814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A94246A281FB44500AD814E /* Build configuration list for PBXNativeTarget "JoyAniosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A94246B281FB44500AD814E /* Debug */,
+				3A94246C281FB44500AD814E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A942438281FB44400AD814E /* Project object */;
+}
